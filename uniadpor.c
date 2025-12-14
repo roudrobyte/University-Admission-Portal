@@ -11,7 +11,7 @@ int main()
     
     printf("Are you a domestic resident?(Y/N) :");
     
-    scanf("%C",&is_bdr);
+    scanf("%c",&is_bdr);
     
     if(is_bdr=='Y'){
         printf("What is your year of birth?\n");
@@ -42,7 +42,7 @@ int main()
         
     }
     
-    else if(is_bdr='N'){
+    else if(is_bdr=='N'){
         printf("What is your Birth Year?\n");
         scanf("%d",&a);
         p=yr-a;
